@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'stokradar — markets · intelligence · edge',
+  title: 'stokradar',
   description: 'We do the research. You make the call.',
 };
 
