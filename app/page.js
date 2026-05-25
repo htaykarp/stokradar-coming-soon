@@ -2372,15 +2372,6 @@ export default function Home() {
           <div style={{ fontSize:17, fontWeight:700, letterSpacing:'-0.4px', color:C.text }}>
             stok<span style={{ color:C.green }}>radar</span>
           </div>
-          <span style={{
-            ...mono, fontSize:9.5, fontWeight:700, padding:'3px 9px', borderRadius:4,
-            background:'rgba(251,191,36,0.10)', color:C.amber, border:'1px solid rgba(251,191,36,0.28)',
-            letterSpacing:'0.12em', textTransform:'uppercase',
-            display:'inline-flex', alignItems:'center', gap:5,
-          }}>
-            <span style={{ width:5, height:5, borderRadius:'50%', background:C.amber, boxShadow:`0 0 6px ${C.amber}`, animation:'pulse 1.8s ease-in-out infinite' }}/>
-            Coming Soon
-          </span>
         </div>
         <button onClick={openNotify} style={{
           padding:'8px 16px', borderRadius:8,
